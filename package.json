@@ -1,0 +1,23 @@
+{
+  "name": "express-boilerplate",
+  "version": "0.0.1",
+  "description": "Bare bones express server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardNolan/express-boilerplate.git"
+  },
+  "author": "Richard Nolan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RichardNolan/express-boilerplate/issues"
+  },
+  "homepage": "https://github.com/RichardNolan/express-boilerplate#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
