@@ -17,7 +17,7 @@ router.use('/:name', privateArea, (req,res)=>{
 });
 
 router.use('/', publicArea, (req,res)=>{
-    res.send("API Root");
+    res.render('../views/index.ejs', {title:"API Root"});
 });
 
 module.exports = router;

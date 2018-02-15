@@ -17,7 +17,7 @@ router.use('/:name', privateArea, (req,res)=>{
 });
 
 router.use('/', publicArea, (req,res)=>{
-    res.send("HOME");
+    res.render('../views/index.ejs', {title:'Homepage'});
 });
 
 module.exports = router;
