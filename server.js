@@ -8,6 +8,6 @@ app.use(express.static(`${__dirname}public`));
 
 app.use('/', router);
 
-app.listen(3000, ()=>{
-    console.log("listening on 3000")
+app.listen(80, ()=>{
+    console.log("listening on 80")
 });
